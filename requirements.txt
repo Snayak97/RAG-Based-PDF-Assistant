@@ -1,0 +1,13 @@
+langchain
+langchain-community
+langchain-core
+pypdf
+pymupdf
+faiss-cpu
+chromadb
+sentence-transformers
+fastapi
+uvicorn
+python-dotenv
+streamlit
+python-multipart
