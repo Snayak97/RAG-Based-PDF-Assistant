@@ -23,6 +23,8 @@ rag_project/
 
 
 
+
+
 SYSTEM FLOW 
 RAG pipeline is:
 
@@ -43,3 +45,19 @@ Retrieved Context
 LLM
  ↓
 Final Answer
+
+
+
+<!-- cmd to run -->
+uv init
+cd project name
+uv venv
+.venv\Scripts\activate
+
+uv add -r requirements.txt
+
+<!-- backend -->
+python src/main.py
+
+<!-- frontend -->
+uv run streamlit run ui/app.py
